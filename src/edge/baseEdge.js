@@ -42,6 +42,7 @@ class BaseEdge extends Edge {
     // 性能优化
     this._labelWidth = 0;
     this._labelHeight = 0;
+    this._type === 'edge';
   }
   _init() {
     if (this._isInited) {

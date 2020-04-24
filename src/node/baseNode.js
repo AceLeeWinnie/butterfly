@@ -18,6 +18,7 @@ class BaseNode extends Node {
     this._on = opts._on;
     this._emit = opts._emit;
     this._global = opts._global;
+    this._type = 'node';
     // endpoint 这部分需要考虑
     this.endpoints = [];
     this._endpointsData = opts.endpoints;

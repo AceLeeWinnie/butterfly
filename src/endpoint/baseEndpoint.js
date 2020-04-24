@@ -23,6 +23,7 @@ class BaseEndpoint extends Endpoint {
     this.limitNum = opts.limitNum;
     this.options = opts;
     // 假如锚点在节点上则有值
+    this._type = 'endpoint';
     this._node = opts._node;
     this._global = opts._global;
     this._on = opts._on;

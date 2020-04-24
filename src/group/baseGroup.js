@@ -31,6 +31,7 @@ class BaseGroup extends Group {
     // endpoint 这部分需要考虑
     this.endpoints = [];
     this._endpointsData = opts.endpoints;
+    this._type = 'group';
   }
   init() {
     this.dom = this.draw({
